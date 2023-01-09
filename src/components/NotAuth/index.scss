@@ -1,0 +1,33 @@
+
+
+.notAuth_container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+
+  &_card {
+    text-align: center;
+
+    img {
+      width: 200px;
+      height: 200px;
+      object-fit: contain;
+    }
+
+    p {
+      font-size: 20px;
+    }
+
+    button {
+      width: 100px;
+      padding: 15px 0;
+      border-radius: 10px;
+      border: 0;
+      font-size: 20px;
+      background-color: rgb(127, 213, 127);
+      color: white;
+      cursor: pointer;
+    }
+  }
+}

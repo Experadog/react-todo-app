@@ -1,0 +1,18 @@
+
+.submitBtn {
+  width: 150px;
+  padding: 15px 0;
+  border-radius: 10px;
+  border: 0;
+  outline: 0;
+  background-color: rgb(79, 150, 79);
+  color: white;
+  font-size: 20px;
+  margin-top: 20px;
+  cursor: pointer;
+}
+
+.disabledBtn {
+  background-color: gray;
+  cursor: no-drop;
+}
